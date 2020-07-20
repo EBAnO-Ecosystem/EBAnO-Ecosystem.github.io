@@ -56,8 +56,8 @@ a {
 .page-header {
   color: #fff;
   text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #226199, rgb(35, 92, 179) 28.99%, rgb(81, 0, 162) 73.11%, #321252) }
+  background-color: #0e3a61;
+  background-image: linear-gradient(120deg, #0e3a61, rgb(13, 70, 157) 28.99%, rgb(80, 2, 158) 73.11%, #321252) }
 
 @media screen and (min-width: 64em) {
   .page-header {
@@ -104,6 +104,28 @@ a {
   .project-tagline {
     font-size: 1rem; } }
 
+.main-content .btn{
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: rgba(255, 255, 255, 0.82);
+  background-color: #0D469D;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0.3rem;
+  transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+}
+
+.btn {
+   }
+.main-content .btn + .main-content .btn {
+  margin-left: 1rem; }
+
+.main-content .btn:hover {
+  color: rgba(255, 255, 255, 0.82);
+  text-decoration: none;
+  background-color: #467dd0
+}
+
 .main-content :first-child {
   margin-top: 0; }
 .main-content img {
@@ -112,7 +134,22 @@ a {
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-weight: normal;
-  color: #159957; }
+  color: #0D469D; }
+
+.main-content h1:after
+{
+  content: ' ';
+  display: block;
+  border: solid 1px #eff0f1; }
+
+.main-content h2:after
+{
+  content: ' ';
+  display: block;
+  border: solid 1px #eff0f1; }
+
+
+
 .main-content p {
   margin-bottom: 1em; }
 .main-content code {
