@@ -280,3 +280,10 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+
+.alert {
+  padding: 20px;
+  background-color: #ff9800; /* yellow */
+  color: white;
+  margin-bottom: 15px;
+}
